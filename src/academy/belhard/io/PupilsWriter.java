@@ -1,6 +1,6 @@
 package academy.belhard.io;
 
-import academy.belhard.enity.Pupil;
+import academy.belhard.entity.Pupil;
 
 import java.io.FileWriter;
 import java.io.IOException;

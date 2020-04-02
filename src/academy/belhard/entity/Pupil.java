@@ -1,4 +1,4 @@
-package academy.belhard.enity;
+package academy.belhard.entity;
 
 import java.util.Objects;
 
@@ -6,13 +6,19 @@ public class Pupil {
     private String firstName;
     private String lastName;
     private Sex sex;
-    private double averageMark;
+    private Double averageMark;
 
     public Pupil(String firstName, String lastName, Sex sex, double averageMark) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.sex = sex;
         this.averageMark = averageMark;
+    }
+
+    public Pupil(String firstName, String lastName, Sex sex) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.sex = sex;
     }
 
     public String getFirstName() {
@@ -39,11 +45,11 @@ public class Pupil {
         this.sex = sex;
     }
 
-    public double getAverageMark() {
+    public Double getAverageMark() {
         return averageMark;
     }
 
-    public void setAverageMark(double averageMark) {
+    public void setAverageMark(Double averageMark) {
         this.averageMark = averageMark;
     }
 
